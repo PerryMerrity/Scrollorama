@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>scrollorama</title>
+<link href='http://fonts.googleapis.com/css?family=Vollkorn:400italic,400' rel='stylesheet' type='text/css'>
+<link href='css/styles.css' rel='stylesheet' type='text/css'>
+</head>
+<body>
+  <section class="scrollblock" id="title">
+    <div> 
+    	<img src="img/paz.jpg" alt="Octavio Paz">
+      <h1>Motion</h1></p>By Octavio Paz, winner of the Nobel Prize in Literature 1990</p>
+    </div>
+  </section>
+  <section class="scrollblock" id="couplet1">
+    <div>
+    	<p>If you are the amber mare</p>
+      <p class="indent">I am the road of blood</p>
+    </div>
+  </section>
+  <section class="scrollblock" id="couplet2">
+    <div>
+    	<p>If you are the first snow</p>
+      <p class="indent">I am he who lights the hearth of dawn</p>
+    </div>
+  </section>
+  <section class="scrollblock" id="couplet3">
+    <div>
+    	<p>If you are the tower of night</p>
+      <p class="indent">I am the spike burning in your mind</p>
+    </div>
+  </section>
+  <section class="scrollblock" id="couplet4">
+    <div>
+    	<p>If you are the morning tide</p>
+      <p class="indent">I am the first bird's cry</p>
+    </div>
+  </section>
+  <section class="scrollblock" id="couplet5">
+    <div>
+    	<p>If you are the basket of oranges</p>
+      <p class="indent">I am the knife of the sun</p>
+    </div>
+  </section>
+  <section class="scrollblock" id="couplet6">
+    <div>
+    	<p>If you are the stone altar</p>
+      <p class="indent">I am the sacrilegious hand</p>
+    </div>
+  </section>
+  <section class="scrollblock" id="couplet7">
+    <div>
+    	<p>If you are the sleeping land</p>
+      <p class="indent">I am the green cane</p>
+    </div>
+  </section>
+  <section class="scrollblock" id="couplet8">
+    <div>
+    	<p>If you are the wind's leap</p>
+      <p class="indent">I am the buried fired</p>
+    </div>
+  </section>
+  <section class="scrollblock" id="couplet9">
+    <div>
+    	<p>If you are the water's mouth</p>
+      <p class="indent">I am the mouth of moss</p>
+    </div>
+  </section>
+  <section class="scrollblock" id="couplet10">
+    <div>
+    	<p>If you are the forest of the clouds</p>
+      <p class="indent">I am the axe that parts it</p>
+    </div>
+  </section>
+  <section class="scrollblock" id="couplet11">
+    <div>
+    	<p>If you are the profaned city</p>
+      <p class="indent">I am the rain of consecration</p>
+    </div>
+  </section>
+  <section class="scrollblock" id="couplet12">
+    <div>
+    	<p>If you are the yellow mountain</p>
+      <p class="indent">I am the red arms of lichen</p>
+    </div>
+  </section>
+  <section class="scrollblock" id="couplet13">
+    <div>
+    	<p>If you are the rising sun</p>
+      <p class="indent">I am the road of blood</p>
+    </div>
+  </section>
+  <section class="scrollblock" id="about">
+		<div>
+	    <h1>Colophon</h1>
+	  	<p>A Scrollorama Example by Perry Merrity II, using the (◕〝◕) colour palette by 'Sugar', JavaScript(s) and other sources you have used.</p>
+    </div>
+  </section>
+<script src="js/jquery-1.7.1.min.js"></script> 
+<script src="js/jquery.scrollorama.js"></script> 
+<script>
+$(document).ready(function() {		
+	var scrollorama = $.scrollorama({ blocks:'.scrollblock' });
+	scrollorama.animate('#couplet1 p:first',{ duration: 300, property:'top', end: 800, pin: true });
+	scrollorama.animate('#couplet1 p:last',{ duration: 300, property:'top', start:800, end: -800, pin: true });
+	scrollorama.animate('#couplet2 p:first',{ duration: 300, property:'top', end: 800, pin: true });
+	scrollorama.animate('#couplet2 p:last',{ duration: 300, property:'top', start:800, end: -800, pin: true });
+	scrollorama.animate('#couplet3 p:first',{ duration: 300, property:'top', end: 800, pin: true });
+	scrollorama.animate('#couplet3 p:last',{ duration: 300, property:'top', start:800, end: -800, pin: true });	
+	scrollorama.animate('#couplet4 p:first',{ duration: 300, property:'top', end: 800, pin: true });
+	scrollorama.animate('#couplet4 p:last',{ duration: 300, property:'top', start:800, end: -800, pin: true });
+	scrollorama.animate('#couplet5 p:first',{ duration: 300, property:'top', end: 800, pin: true });
+	scrollorama.animate('#couplet5 p:last',{ duration: 300, property:'top', start:800, end: -800, pin: true });	
+	scrollorama.animate('#couplet6 p:first',{ duration: 300, property:'top', end: 800, pin: true });
+	scrollorama.animate('#couplet6 p:last',{ duration: 300, property:'top', start:800, end: -800, pin: true });		
+});
+</script>
+</body>
+</html>

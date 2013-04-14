@@ -1,0 +1,146 @@
+/* html tags */
+body { 
+	padding:0;
+	margin:0;
+	font-family: "Vollkorn", "Georgia", sans-serif;
+	background-color: #ECE2C0;
+}
+h1 { 
+	font-size: 88px;
+	line-height:46px;
+}
+p { 
+	font-size: 26px;
+}
+/* universal styles */
+.scrollblock {
+	margin: 0;
+	width: 100%;
+	height: 830px;
+}
+.scrollblock div { 
+	width: 800px;
+	margin: 0 auto;
+}
+.indent { 
+	margin-left: 325px; 
+}
+/* intro title */
+#title img {
+	border-radius: 700px;
+}
+#title div h1 {
+	margin:0;
+	padding:0;
+}
+/* individual couplets */
+#couplet1 {
+	background: #542437;
+	color: #fff;
+}
+#couplet1 p:first {
+	
+}
+#couplet1 p:last {
+	padding-top:225px;
+}	
+
+#couplet2 {
+	background: #83AF9B
+}
+
+#couplet2 p:first {
+	
+}
+#couplet2 p:last {
+	padding-top:225px;
+}	
+#couplet3 {
+	background: #C8C8A9
+}
+
+#couplet3 p:first {
+	
+}
+#couplet3 p:last {
+	padding-top:225px;
+}	
+#couplet4 {
+	background: #F9CDAD
+}
+
+#couplet4 p:first {
+	
+}
+#couplet4 p:last {
+	padding-top:225px;
+}	
+#couplet5 {
+	background: #FC9D9A
+}
+
+#couplet5 p:first {
+	
+}
+#couplet5 p:last {
+	padding-top:225px;
+}	
+#couplet6 {
+	background: #FE4365
+}
+
+#couplet6 p:first {
+	
+}
+#couplet6 p:last {
+	padding-top:225px;
+}	
+.star {
+   margin: 50px 0;
+   position: relative;
+   display: block;
+   color: #fc2e5a;
+   width: 0px;
+   height: 0px;
+   border-right:  100px solid transparent;
+   border-bottom: 70px  solid #fc2e5a;
+   border-left:   100px solid transparent;
+   -moz-transform:    rotate(35deg);
+   -webkit-transform: rotate(35deg);
+   -ms-transform:     rotate(35deg);
+   -o-transform:      rotate(35deg);
+}
+.star:before {
+   border-bottom: 80px solid #fc2e5a;
+   border-left: 30px solid transparent;
+   border-right: 30px solid transparent;
+   position: absolute;
+   height: 0;
+   width: 0;
+   top: -45px;
+   left: -65px;
+   display: block;
+   content: '';
+   -webkit-transform: rotate(-35deg);
+   -moz-transform:    rotate(-35deg);
+   -ms-transform:     rotate(-35deg);
+   -o-transform:      rotate(-35deg);
+   
+}
+.star:after {
+   position: absolute;
+   display: block;
+   color: #fc2e5a;
+   top: 3px;
+   left: -105px;
+   width: 0px;
+   height: 0px;
+   border-right: 100px solid transparent;
+   border-bottom: 70px solid #fc2e5a;
+   border-left: 100px solid transparent;
+   -webkit-transform: rotate(-70deg);
+   -moz-transform:    rotate(-70deg);
+   -ms-transform:     rotate(-70deg);
+   -o-transform:      rotate(-70deg);
+   content: '';
+}
